@@ -10,7 +10,11 @@ function App() {
     })();
   });
 
-  return <div>{data}</div>;
+  return <div>
+  <h1>{data}</h1>
+  <p> Hello world !! </p>
+    
+    </div>;
 }
 
 export default App;
