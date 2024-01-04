@@ -5,6 +5,6 @@ module.exports = async function (context, req) {
 
 
     context.res.json({
-        text: "Hello from the Backend API.生成された文字は" + SLName[rundomSL] + "です。" 
+        text: "Hello from the Backend API.生成された文字は" + Chara[rundomSL] + "です。" 
     });
 };
