@@ -1,7 +1,7 @@
 
 module.exports = async function (context, req) {
     const Chara = ["A","B","C","D","E"]
-    let rundomSL = Math.floor(Math.random()*SLName.length)
+    let rundomSL = Math.floor(Math.random()*Chara.length)
 
 
     context.res.json({
